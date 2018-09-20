@@ -2,7 +2,7 @@
     <div class="navbar is-inline-flex is-transparent">
         <div class="navbar-brand">
             <router-link to="/" class="navbar-item">
-                <img src="../assets/logo.svg" width="112" height="28" alt="Bulma">
+                <img src="../assets/logo.svg" width="112" height="28" alt="Logo">
             </router-link>
         </div>
         <div class="navbar-menu" v-if="$route.path !== '/'">

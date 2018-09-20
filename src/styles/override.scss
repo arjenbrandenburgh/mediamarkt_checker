@@ -1,0 +1,16 @@
+.autocomplete {
+  border: 1px solid $grey-lighter;
+
+  ul {
+    background-color: $white;
+    li {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      &:hover {
+        background-color: $white-ter;
+      }
+    }
+  }
+}
